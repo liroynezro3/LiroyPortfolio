@@ -1,0 +1,23 @@
+.contact form {
+  display: flex;
+  padding: 4rem 1rem;
+  flex-direction: column;
+  margin: auto;
+  max-width: 600px;
+}
+form p {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+form input,
+textarea {
+  resize: none;
+  margin-bottom: 1rem;
+  min-width: 100%;
+  max-width: 100%;
+  padding: 10px 18px;
+  font-size: 1.2rem;
+  background-color: rgb(255, 255, 255, 0.1);
+  border-color: rgb(255, 255, 255, 0.1);
+  color: rgb(255, 255, 255);
+}

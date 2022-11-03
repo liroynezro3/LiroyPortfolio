@@ -1,0 +1,41 @@
+.footer {
+  background-color: rgb(31, 31, 31);
+  width: 100%;
+  padding: 6rem 0;
+  display: flex;
+  justify-content: space-around;
+}
+.left {
+  font-size: 24px;
+  width: 30%;
+}
+.right {
+    width: 30%;
+    font-size: 24px;
+  }
+.location {
+  margin: 20px 0;
+}
+.phonenumber {
+  margin: 20px 0;
+}
+.email {
+  margin: 20px 0;
+}
+
+.right h4 {
+  margin: 20px 0px;
+}
+.right p {
+  margin: 20px 0px;
+}
+.connection {
+  display: flex;
+}
+@media screen and (max-width:640px) {
+    .footer{
+    display: block;
+}
+.left{width: 85%; margin: 0 auto;}
+.right {width: 80%; margin: 0 auto;}
+}

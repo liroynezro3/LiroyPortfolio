@@ -1,0 +1,14 @@
+.projectHeading {
+  text-align: center;
+  font-size: 3rem;
+  padding: 2rem 0 0rem 0;
+}
+
+.projectContainer {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
