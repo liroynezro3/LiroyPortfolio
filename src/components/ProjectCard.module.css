@@ -6,14 +6,15 @@
     margin-top: 2rem;
   }
   .projectCard img {
-    width: 100%;
+    max-width: 100%;
+
     margin-bottom: 12px;
     transition: all 0.4s;
     box-shadow: rgba(0, 0, 0, 0.828) 0px 5px 15px;
   }
   .projectCard img:hover {
-  transform: scale(1.06);
-  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+  transform: scale(1.03);
+  box-shadow: rgba(0, 0, 0, 1) 5px 12px 15px;
   }
   .projectCard h3 {
     font-size: 2rem;
@@ -21,9 +22,14 @@
   }
   .projectCard p {
     font-size: 1.2rem;
-    margin-bottom: 1.4rem;
-    min-height: 130px;
+    min-height: 8rem;
   }
+  .projectCard span{display: block;
+  margin: 0.5rem;
+font-size: 1.2rem;
+min-height: 5rem;}
+
+  .projectCard h4{font-size: 2rem; text-decoration:2px solid white underline}
   .buttons {
     padding: 0.5rem 0;
     display: flex;

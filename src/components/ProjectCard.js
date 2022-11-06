@@ -8,6 +8,8 @@ const ProjectCard = (props) => {
       </a>
       <h3>{props.title}</h3>
       <p>{props.text}</p>
+      <h4>Technologies</h4>
+        <span>{props.technologies}</span>
       <div className={classes.buttons}>
         <a href={props.view} className="btn" target="_blank" rel="noreferrer">
           View

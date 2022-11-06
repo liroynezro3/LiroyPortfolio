@@ -19,7 +19,7 @@ const HeroImg = () => {
       .pauseFor(300)
       .deleteChars(9)
       .typeString('<strong>Fullstack Web Developer (MERN Stack)</strong>')
-      .pauseFor(8000)
+      .pauseFor(10000)
       .start();
   }}
   options={{

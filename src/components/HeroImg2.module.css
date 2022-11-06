@@ -1,7 +1,7 @@
 .heroImg {
   width: 100%;
 background-color: rgba(0, 0, 0, 0.5);
-height: 70vh;
+height: 60vh;
 position: relative
 }
 .heroImg::before{
