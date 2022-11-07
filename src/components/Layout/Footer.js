@@ -24,20 +24,42 @@ const Footer = () => {
         </div>
       </div>
       <div className={classes.right}>
-        <h3>About the company</h3>
+        <h3>About myself in brief</h3>
         <p>
-          Lorem ipsum odor amet, consectetuer adipiscing elit. Ac purus in massa
-          egestas mollis varius; dignissim elementum.
+          I am 25 years old with a passion for computers in general. Hardworking
+          and looking for a stable job for a long time that I can develop there
+          and advance there.
         </p>
         <div className={classes.connection}>
           <a href={"https://www.facebook.com/liroy.nezri"} target="_blanked">
-          <FacebookIcon style={{ fontSize: "40px", marginRight: "1rem", color:"#1E90FF"}} />
+            <FacebookIcon
+              style={{
+                fontSize: "40px",
+                marginRight: "1rem",
+                color: "#1E90FF",
+              }}
+            />
           </a>
           <a href={"https://www.instagram.com/liroynezri/"} target="_blanked">
-            <InstagramIcon style={{ fontSize: "40px", marginRight: "1rem",color:"#A0522D"}} />
+            <InstagramIcon
+              style={{
+                fontSize: "40px",
+                marginRight: "1rem",
+                color: "#A0522D",
+              }}
+            />
           </a>
-          <a href={`https://api.whatsapp.com/send?phone=972502457449&text=Hi%20Liroy,%20I%20saw%20your%20site%20and%20wanted%20to%20give%20you%20a%20comment`} target="_blanked">
-            <WhatsAppIcon style={{ fontSize: "40px", marginRight: "1rem", color:"#00FF00" }} />
+          <a
+            href={`https://api.whatsapp.com/send?phone=972502457449&text=Hi%20Liroy,%20I%20saw%20your%20site%20and%20wanted%20to%20give%20you%20a%20comment`}
+            target="_blanked"
+          >
+            <WhatsAppIcon
+              style={{
+                fontSize: "40px",
+                marginRight: "1rem",
+                color: "#00FF00",
+              }}
+            />
           </a>
         </div>
       </div>
