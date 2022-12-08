@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "./AllProjects.module.css";
 import EcommerePic from "../assets/EcommerePic.png";
 import CoinsStats from "../assets/CoinsStats.png";
 import Portfolio from "../assets/Portfolio.png";
 import ProjectCard from "./ProjectCard";
+import Aos from "aos";
+import "aos/dist/aos.css";
 const ProjectsData = [
   {
     image: EcommerePic,
@@ -33,10 +35,19 @@ const ProjectsData = [
   },
 ];
 const AllProjects = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <React.Fragment>
       <h1 className={classes.projectHeading}>My Projects</h1>
-      <div className={classes.projectContainer}>
+      <div
+        className={classes.projectContainer}
+        data-aos="zoom-in-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+      >
         {ProjectsData.map((item, i) => (
           <ProjectCard
             key={i}
