@@ -4,6 +4,8 @@ import EcommerePic from "../assets/EcommerePic.png";
 import CoinsStats from "../assets/CoinsStats.png";
 import Portfolio from "../assets/Portfolio.png";
 import ProjectCard from "./ProjectCard";
+import DisabledTag from "../assets/DisabledTag.PNG"
+import WeatherApp from "../assets/WeatherApp.PNG"
 import Aos from "aos";
 import "aos/dist/aos.css";
 const ProjectsData = [
@@ -33,6 +35,31 @@ const ProjectsData = [
     view: "https://coinstats.netlify.app",
     source: "https://github.com/liroynezro3/coinsStats",
   },
+  {
+    image: DisabledTag,
+    title: "Disabled Parking Cheack Website",
+    text: `Checks whether the car has a disabled parking tag, connected to the government database.`,
+    technologies: "Html, Css, JavaScript, React, api",
+    view: "https://parkingtag.netlify.app/",
+    source: "https://github.com/liroynezro3/disabledparkingtag",
+  },
+  {
+    image: "",
+    title: "Netflix clone website, comming soon... ;-)",
+    text: `Netflix clone website, comming soon... ;-)`,
+    technologies: "Html, Css, JavaScript, React, Meterial Ui, RESTful API, MongoDB, Node JS/Express, Axios ",
+    view: "/",
+    source: "/",
+  },
+  {
+    image: WeatherApp,
+    title: "Basic global weather app",
+    text: `Check the weather forecast anywhere in the world, connected to an external database.`,
+    technologies: "Html, Css, JavaScript, React, api",
+    view: "https://liroyweatherapp.netlify.app/",
+    source: "https://github.com/liroynezro3/WeatherApp",
+  },
+
 ];
 const AllProjects = () => {
   useEffect(() => {

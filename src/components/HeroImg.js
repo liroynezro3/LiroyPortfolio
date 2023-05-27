@@ -14,15 +14,15 @@ const HeroImg = () => {
           onInit={(typewriter) => {
             typewriter
               .typeString("Hello everyone,")
-              .pauseFor(1800)
+              .pauseFor(1500)
               .deleteAll()
               .typeString("My Name Is Liroy And Im Developer")
-              .pauseFor(300)
+              .pauseFor(200)
               .deleteChars(9)
               .typeString(
                 "<strong>Fullstack Web Developer (MERN Stack)</strong>"
               )
-              .pauseFor(10000)
+              .pauseFor(3000)
               .start();
           }}
           options={{
